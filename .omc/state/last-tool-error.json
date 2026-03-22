@@ -1,0 +1,7 @@
+{
+  "tool_name": "Agent",
+  "tool_input_preview": "{\"description\":\"完成 ImageGallery 趣味化改造\",\"prompt\":\"请完成 Label_Camera 项目中 ImageGallery 组件的趣味风格改造。\\n\\n**当前状态**：\\n- 已添加彩虹糖果色渐变数组和 getGradientByIndex 函数\\n- 需要改造加载状态和空状态\\n- 需要改造卡片布局和样式\\n\\n**设计要求**：\\n1. **加载状态...",
+  "error": "Agent type 'executor' not found. Available agents: general-purpose, statusline-setup, Explore, Plan, claude-code-guide, oh-my-claudecode:analyst, oh-my-claudecode:build-fixer, oh-my-claudecode:architect, oh-my-claudecode:code-reviewer, oh-my-claudecode:code-simplifier, oh-my-claudecode:critic, oh-my-claudecode:debugger, oh-my-claudecode:deep-executor, oh-my-claudecode:designer, oh-my-claudecode:document-specialist, oh-my-claudecode:executor, oh-my-claudecode:explore, oh-my-claudecode:git-master,...",
+  "timestamp": "2026-03-04T15:06:24.755Z",
+  "retry_count": 1
+}

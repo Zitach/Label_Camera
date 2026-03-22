@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node:*)",
+      "Bash(ls:*)",
+      "mcp__plugin_oh-my-claudecode_t__state_write",
+      "Bash(\"d:/Label_Camera/.omc/handoffs/team-plan-init.md\":*)",
+      "mcp__plugin_oh-my-claudecode_t__notepad_read",
+      "Bash(\"D:/Label_Camera/REQUIREMENTS.md\":*)",
+      "mcp__plugin_oh-my-claudecode_t__state_clear",
+      "Bash(npm create vite@latest . -- --template react-ts)",
+      "Bash(npm init -y)",
+      "Bash(npm install vite@latest react@latest react-dom@latest typescript@latest @types/react@latest @types/react-dom@latest @vitejs/plugin-react@latest tailwindcss@latest postcss@latest autoprefixer@latest zustand@latest react-webcam@latest uuid@latest @types/uuid@latest idb@latest)",
+      "mcp__plugin_oh-my-claudecode_t__lsp_diagnostics",
+      "Bash(npm run build)",
+      "Bash(npm run dev)",
+      "Bash(npx tsc --noEmit)",
+      "Bash(npm install @tailwindcss/postcss)",
+      "Bash(test -f dist/index.html)",
+      "Bash(git config:*)",
+      "Bash(gh --version)",
+      "Bash(where gh:*)",
+      "Read(//c/Program Files/GitHub CLI/**)",
+      "Read(//d/Label_Camera/$LOCALAPPDATA/GitHubCLI/**)",
+      "Read(//d/Label_Camera/$PROGRAMFILES/GitHub CLI/**)"
+    ]
+  },
+  "enabledPlugins": {
+    "frontend-design@claude-plugins-official": true
+  }
+}

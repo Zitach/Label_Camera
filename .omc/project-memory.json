@@ -1,0 +1,257 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1772635549512,
+  "projectRoot": "D:\\Label_Camera",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "react",
+        "version": "19.2.4",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.2.4",
+        "category": "frontend"
+      },
+      {
+        "name": "vite",
+        "version": "7.3.1",
+        "category": "build"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc && vite build",
+      "preview": "vite preview"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "dist": {
+      "path": "dist",
+      "purpose": "Distribution/build output",
+      "fileCount": 1,
+      "lastAccessed": 1772635549500,
+      "keyFiles": [
+        "index.html"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 3,
+      "lastAccessed": 1772635549500,
+      "keyFiles": [
+        "App.tsx",
+        "index.css",
+        "main.tsx"
+      ]
+    },
+    "dist\\assets": {
+      "path": "dist\\assets",
+      "purpose": "Static assets",
+      "fileCount": 2,
+      "lastAccessed": 1772635549503,
+      "keyFiles": [
+        "index-2G3wJEgv.css",
+        "index-ROwE85rG.js"
+      ]
+    },
+    "src\\components": {
+      "path": "src\\components",
+      "purpose": "UI components",
+      "fileCount": 6,
+      "lastAccessed": 1772635549503,
+      "keyFiles": [
+        "CameraCapture.tsx",
+        "ImageGallery.tsx",
+        "ImageUpload.tsx"
+      ]
+    },
+    "src\\types": {
+      "path": "src\\types",
+      "purpose": "Type definitions",
+      "fileCount": 1,
+      "lastAccessed": 1772635549503,
+      "keyFiles": [
+        "index.ts"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "src\\components\\ImageGallery.tsx",
+      "accessCount": 9,
+      "lastAccessed": 1772636850501,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\CameraCapture.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1772636651306,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 3,
+      "lastAccessed": 1772636006816,
+      "type": "directory"
+    },
+    {
+      "path": "tailwind.config.js",
+      "accessCount": 3,
+      "lastAccessed": 1772636368336,
+      "type": "file"
+    },
+    {
+      "path": "src\\index.css",
+      "accessCount": 3,
+      "lastAccessed": 1772636428380,
+      "type": "file"
+    },
+    {
+      "path": "src\\App.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1772636484600,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\SearchBar.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1772636527189,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\LabelInput.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1772636587931,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 3,
+      "lastAccessed": 1772636834421,
+      "type": "file"
+    },
+    {
+      "path": "index.html",
+      "accessCount": 2,
+      "lastAccessed": 1772636387716,
+      "type": "file"
+    },
+    {
+      "path": "IMPLEMENTATION_PLAN.md",
+      "accessCount": 1,
+      "lastAccessed": 1772635967986,
+      "type": "file"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "accessCount": 1,
+      "lastAccessed": 1772635967990,
+      "type": "file"
+    },
+    {
+      "path": "REQUIREMENTS.md",
+      "accessCount": 1,
+      "lastAccessed": 1772635968043,
+      "type": "file"
+    },
+    {
+      "path": "src\\db\\images.ts",
+      "accessCount": 1,
+      "lastAccessed": 1772636000009,
+      "type": "file"
+    },
+    {
+      "path": "src\\types\\index.ts",
+      "accessCount": 1,
+      "lastAccessed": 1772636000061,
+      "type": "file"
+    },
+    {
+      "path": "src\\db\\database.ts",
+      "accessCount": 1,
+      "lastAccessed": 1772636000064,
+      "type": "file"
+    },
+    {
+      "path": "src\\db\\tags.ts",
+      "accessCount": 1,
+      "lastAccessed": 1772636000118,
+      "type": "file"
+    },
+    {
+      "path": "src\\store\\useStore.ts",
+      "accessCount": 1,
+      "lastAccessed": 1772636000174,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\MultiAngleCapture.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1772636000920,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\ImageUpload.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1772636001078,
+      "type": "file"
+    },
+    {
+      "path": "postcss.config.js",
+      "accessCount": 1,
+      "lastAccessed": 1772636011215,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.claude\\plans\\groovy-splashing-panda.md",
+      "accessCount": 1,
+      "lastAccessed": 1772636306880,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
